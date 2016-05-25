@@ -1,8 +1,33 @@
 <resources>
 
   <!-- Base application theme. -->
-  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+  <style name="AppTheme" parent="Theme.AppCompat">
     <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/material_blue_grey_800</item>
+    <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
+    <item name="colorAccent">@color/material_deep_teal_200</item>
+    <item name="android:windowBackground">@color/window_background_grey</item>
+  </style>
+
+  <style name="AppTheme_FullScreen" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">@color/material_blue_grey_800</item>
+    <item name="colorPrimaryDark">@color/material_blue_grey_950</item>
+    <item name="colorAccent">@color/material_deep_teal_200</item>
+    <item name="android:windowBackground">@color/window_background_grey</item>
+    <item name="android:statusBarColor">@color/window_background_grey</item>
+    <item name="android:navigationBarColor">@color/window_background_grey</item>
+  </style>
+
+  <style name="Text_Headline" parent="TextAppearance.AppCompat.Display2">
+    <item name="android:fontFamily">sans-serif-thin</item>
+  </style>
+
+  <style name="Text_Description" parent="TextAppearance.AppCompat.Medium">
+    <item name="android:fontFamily">sans-serif-thin</item>
+  </style>
+
+  <style name="Text_Prompt" parent="TextAppearance.AppCompat.Medium">
+    <item name="android:fontFamily">sans-serif-light</item>
   </style>
 
 </resources>

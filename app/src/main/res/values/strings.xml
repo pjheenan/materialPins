@@ -1,3 +1,6 @@
 <resources>
-  <string name="app_name">MaterialPins</string>
+  <string name="app_name">Material Pins</string>
+  <string name="tagline">Extract Material Themes from your favourite Pinterest images</string>
+  <string name="login_pinterest">Login with Pinterest to materialise your pins</string>
+  <string name="demo_unsplash">Try using random UnSplash.com images</string>
 </resources>

@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'war'
+
+sourceCompatibility = "1.7"
+
+dependencies {
+  compile rootProject.ext.libraries.okhttp
+  compile rootProject.ext.libraries.okhttpurl
+  compile rootProject.ext.libraries.retrofit
+  compile rootProject.ext.libraries.dagger
+  providedCompile rootProject.ext.libraries.daggerCompiler
+
+  testCompile rootProject.ext.testLibraries.junit
+  testCompile rootProject.ext.testLibraries.mockito
+}
+
+jacocoTestReport {
+  reports {
+    xml.enabled false
+    csv.enabled false
+    html.destination "${buildDir}/codeCoverageReports"
+  }
+}

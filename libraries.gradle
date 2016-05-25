@@ -2,7 +2,7 @@ ext {
 
     minSdkVersion = 21
     compileSdkVersion = 22
-    buildToolsVersion = '22.0.1'
+    buildToolsVersion = '23.0.1'
 
     //Android
     daggerVersion = '1.2.2'
@@ -12,8 +12,8 @@ ext {
     rxandroidVersion = '0.24.0'
     appCompatVersion = '22.2.+'
     wearableSupportVersion = '1.2.0'
-    recyclerViewVersion = '+'
-    cardViewVersion = '+'
+    recyclerViewVersion = '22.2.1'
+    cardViewVersion = '22.2.1'
     assertJVersion = '1.0.0'
     picassoVersion = '2.5.2'
     googlePlayServicesVersion = '7.8.+'
@@ -25,7 +25,7 @@ ext {
     //Java
     rxjavaVersion = '1.0.13'
     javaxInjectVersion = '1'
-    retrofitVersion = '1.9.0'
+    retrofitVersion = '2.0.0-beta2'
     okhttpVersion = '2.4.0'
     gsonVersion = '2.3.1'
     commonsCodecVersion = '1.7'
@@ -48,6 +48,7 @@ ext {
             multidexSupport             : "com.android.support:multidex:${multidexSupportVersion}",
             supportDesign               : "com.android.support:design:${androidSupportVersion}",
             androidSupport              : "com.android.support:support-v13:${androidSupportVersion}",
+            palette                     : "com.android.support:palette-v7:${androidSupportVersion}",
             googlePlayServicesLocation  : "com.google.android.gms:play-services-location:${googlePlayServicesVersion}",
             googlePlayServicesAnalytics : "com.google.android.gms:play-services-analytics:${googlePlayServicesVersion}",
             googlePlayServicesWear      : "com.google.android.gms:play-services-wearable:${googlePlayServicesVersion}",
@@ -58,6 +59,7 @@ ext {
             picasso                     : "com.squareup.picasso:picasso:${picassoVersion}",
             otto                        : "com.squareup:otto:${ottoVersion}",
             retrofit                    : "com.squareup.retrofit:retrofit:${retrofitVersion}",
+            retrofitGson                : "com.squareup.retrofit:converter-gson:${retrofitVersion}",
             okhttp                      : "com.squareup.okhttp:okhttp:${okhttpVersion}",
             okhttpurl                   : "com.squareup.okhttp:okhttp-urlconnection:${okhttpVersion}",
             butterknife                 : "com.jakewharton:butterknife:${butterknifeVersion}",
